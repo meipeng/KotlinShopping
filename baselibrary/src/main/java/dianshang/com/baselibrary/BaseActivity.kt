@@ -1,15 +1,12 @@
-package dianshang.com.shopping
+package dianshang.com.baselibrary
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 
-class MainActivity : AppCompatActivity() {
+class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-
+        setContentView(R.layout.activity_base)
     }
 }
