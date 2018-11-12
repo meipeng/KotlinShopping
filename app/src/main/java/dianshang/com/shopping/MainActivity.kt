@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this,"hello world",Toast.LENGTH_LONG).show()
 
-        Toast.makeText(this,"hello world1",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"hello world1,感谢微软，感谢cctv",Toast.LENGTH_LONG).show()
     }
 }
